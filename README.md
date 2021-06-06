@@ -2,8 +2,9 @@
 Microservice with externalized module core
 
 ## How to use it?
-Request:
+- Request:
 curl localhost:8080/users/1
-Response:
+
+- Response:
 {"id":1,"name":"Juan"}
 
