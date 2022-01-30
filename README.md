@@ -17,9 +17,9 @@ curl localhost:8080/users/1
 > - com.example.service
 > 
 > Entonces tienen que verse asi la estructura base de paquetes de ambos proyectos:
->> Tu proyecto service: com.example.service
+>> Tu proyecto service: <span style="color:blue">com.example.service</span>
 > 
->> Tu proyecto core: com.example.service.core
+>> Tu proyecto core: <span style="color:blue">com.example.service</span><span style="color:green">.core</span>  (Podes darle cualquier nombre "core" es un ejemplo y darle cualquier anidamiento dentro de "core")
  
 > Con esa estructura de paquetes para spring boot "lo veria a" core como si estaria dentro del mismo base paquete para el auto-scan (aunque esten en proyectos separados)
 
