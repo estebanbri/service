@@ -16,10 +16,9 @@ curl localhost:8080/users/1
 > Si en tu servicio, la estructura de paquetes alcanzado por el auto-scan de spring boot es:
 > - com.example.service
 > 
-> Entonces tienen que verse asi la estructura base de paquetes de ambos proyectos:
->> Tu proyecto service: <span style="color:blue">com.example.service</span>
+> Entonces tienen que verse asi la estructura base de paquetes de ambos proyectos:  
 > 
->> Tu proyecto core: <span style="color:blue">com.example.service</span><span style="color:green">.core</span>  (Podes darle cualquier nombre "core" es un ejemplo y darle cualquier anidamiento dentro de "core")
+> ![This is an image](https://github.com/estebanbri/ssl-server/blob/master/Steps-SSL-Images/step4.3.png)
  
 > Con esa estructura de paquetes para spring boot "lo veria a" core como si estaria dentro del mismo base paquete para el auto-scan (aunque esten en proyectos separados)
 
