@@ -18,7 +18,7 @@ curl localhost:8080/users/1
 > 
 > Entonces tienen que verse asi la estructura base de paquetes de ambos proyectos:  
 > 
-> ![This is an image](https://github.com/estebanbri/ssl-server/blob/master/Steps-SSL-Images/step4.3.png)
+> ![This is an image](https://github.com/estebanbri/service/blob/main/path-proyectos.png)
  
 > Con esa estructura de paquetes para spring boot "lo veria a" core como si estaria dentro del mismo base paquete para el auto-scan (aunque esten en proyectos separados)
 
